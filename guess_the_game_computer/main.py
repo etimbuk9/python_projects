@@ -13,3 +13,6 @@ def guess(x):
             print('Too high')
     
     print('Hurray')
+
+if __name__ == '__main__':
+    guess(10)
