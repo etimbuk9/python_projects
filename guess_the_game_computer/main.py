@@ -14,5 +14,20 @@ def guess(x):
     
     print('Hurray')
 
+def computer_guess(x):
+    low = 1
+    high = x
+    feedback = ''
+
+    while feedback != 'c':
+        guess = random.randint(low, high)
+        feedback = input(f'Is {guess} too low(l), high(h) or correct(c)?: ')
+
+        if feedback == 'h':
+            high = guess - 1
+        elif feedback == 'l':
+            low = guess + 1
+    print('I got it')
+
 if __name__ == '__main__':
-    guess(10)
+    computer_guess(100)
