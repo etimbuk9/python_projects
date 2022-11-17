@@ -1,2 +1,3 @@
 # python_projects
-A Group of python Projects
+
+A Group of portfolio python Projects made by Etimbuk Abraham
